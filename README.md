@@ -7,14 +7,14 @@ Sample app to demo the Event Driven Choreography pattern using Spingboot &amp; K
 
 - kafka-topics.bat --create --topic g-order-err-topic -zookeeper localhost:2181 --replication-factor 1 --partitions 1
 
-- kafka-topics.bat --create --topic g-payment-err-topic -zookeeper localhost:2181 --replication-factor 1 --partitions 1
+- kafka-topics.bat --create --topic g-payment-topic -zookeeper localhost:2181 --replication-factor 1 --partitions 1
 
 - kafka-topics.bat --create --topic g-payment-err-topic -zookeeper localhost:2181 --replication-factor 1 --partitions 1
 
-- kafka-topics.bat --create --topic g-inventory-err-topic -zookeeper localhost:2181 --replication-factor 1 --partitions 1
+- kafka-topics.bat --create --topic g-inventory-topic -zookeeper localhost:2181 --replication-factor 1 --partitions 1
 
 - kafka-topics.bat --create --topic g-inventory-err-topic -zookeeper localhost:2181 --replication-factor 1 --partitions 1
 
-- kafka-topics.bat --create --topic g-fulfillment-err-topic -zookeeper localhost:2181 --replication-factor 1 --partitions 1
+- kafka-topics.bat --create --topic g-fulfillment-topic -zookeeper localhost:2181 --replication-factor 1 --partitions 1
 
 - kafka-topics.bat --create --topic g-fulfillment-err-topic -zookeeper localhost:2181 --replication-factor 1 --partitions 1
