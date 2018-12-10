@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: dev
+
+---
+
+spring:
+  profiles: dev
+
+kafka.broker: localhost:9092
+enable.auto.commit: true
+auto.commit.interval.ms:  100
+kafka.auto.offset.reset: earliest
+
+group.id: payment
+
+kafka.g-order-topic: g-order-topic
+kafka.g-fulfillment-topic: g-fulfillment-topic
+kafka.g-inventory-topic: g-inventory-topic
+kafka.g-payment-topic: g-payment-topic
+
+kafka.g-order-err-topic: g-order-err-topic
+kafka.g-fulfillment-err-topic: g-fulfillment-err-topic
+kafka.g-inventory-err-topic: g-inventory-err-topic
+kafka.g-payment-err-topic: g-payment-err-topic

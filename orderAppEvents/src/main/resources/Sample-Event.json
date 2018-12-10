@@ -1,0 +1,14 @@
+{
+	"eventObject": "Order",
+	"eventObjectId": 123,
+	"eventType": "Created",
+	"timestamp": "12/05/2018",
+	"payload": {
+		"customerId": "gimu",
+		"productSKU": "SKU0001",
+		"qty": 2,
+		"cost": 100,
+		"deliveryAddress": "Blore"
+	},
+  "message": "Successfully Created"
+}
